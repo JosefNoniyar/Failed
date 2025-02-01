@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>भुगतान असफल</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>❌ भुगतान असफल हुआ!</h1>
+    <p id="failure-message" class="message"></p>
+    <p class="message">क्या आप दोबारा भुगतान करना चाहेंगे?</p>
+
+    <div class="buttons">
+        <button class="retry" onclick="retryPayment()">हाँ, दोबारा प्रयास करें</button>
+        <button class="cancel" onclick="cancelPayment()">नहीं, धन्यवाद</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
